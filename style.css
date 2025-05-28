@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom styles can be added here if needed, but for now, Tailwind handles everything */
+/* Ensure the pulse-glow animation is available if not picked up by Tailwind JIT for dynamic class toggling */
+.animate-pulse-glow {
+    animation: pulse-glow 1.5s infinite ease-in-out;
+}
+
+/* Style for the listening wave - can be a simple bar or dots */
+/* Using Tailwind classes directly in HTML is often preferred, but this is an option */
+/* #listening-wave { */
+    /* display: none; /* Initially hidden */
+    /* width: 50%; */
+    /* height: 8px; */
+    /* background-color: #8B5CF6; /* purple-500 */
+    /* margin: 8px auto; */
+    /* border-radius: 9999px; */
+    /* transition: opacity 0.3s ease-in-out; */
+/* } */
+
+/* A simple animation for the wave itself, if desired beyond Tailwind's pulse */
+/* @keyframes wave-pulse {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0.5; }
+}
+.animate-wave-pulse {
+    animation: wave-pulse 1s infinite ease-in-out;
+} */
